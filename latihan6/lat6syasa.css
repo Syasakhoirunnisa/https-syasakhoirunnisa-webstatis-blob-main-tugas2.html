@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap');
+
+/* CSS untuk header 1 */
+header {
+    background-image: url('https://img.kurio.network/T3cCxmT4oKpJxA1MmOKEFwCPEGI=/440x440/filters:quality(80)/https://kurio-img.kurioapps.com/21/06/07/01cf89ef-14a4-4cd0-ac89-20a64fa92539.jpe');
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position: left;
+    background-color: #4a2417; 
+    color: #fff; 
+    text-align: center;
+    padding: 25px;
+    font-size: 24px;
+    font-family: "Georgia", serif; 
+    text-transform: uppercase;
+}
+
+
+/* CSS untuk latar belakang body */
+body {
+    background: linear-gradient(bottom, #afc0d3, #bd3d3d); 
+    font-family: Arial, sans-serif;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-delicious-coffee-shop-hand-drawn-brown-background-image_187138.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+/* CSS untuk outline */
+.outline {
+    outline-style: double;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    text-align: justify;
+}
+
+.outline h2 {
+    font-size: 24px;
+}
+
+/* CSS untuk list */
+.list {
+    outline-style: double;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif /* Mengubah font */
+}
+
+.list h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style: square;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+
+/* CSS untuk tautan dalam list */
+ul li a {
+    text-overflow: none;
+    color: #4413f7;
+    font-weight: bold; /* Teks lebih tebal */
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* CSS untuk kotak*/
+.box-model {
+    border: 2px solid #7c3c3c;      
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+.profile, .menu, .testi {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4; /* Latar belakang*/
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+.profile h2, .menu h2, .testi h2 {
+    font-size: 24px;
+}
+
+table thead {
+    background-color: #bd3d3d;
+    color: #fff;
+}
+
+table th, table td {
+    border: 1px solid #bd3d3d;
+    padding: 8px;
+}
+p.b{
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+    text-align: justify;
+}
+.footer {
+    background-color:  #4a2417;
+    padding-bottom: 4%;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    font-family: Arial, sans-serif; /* Mengubah font ke Arial */
+}
+
+/* CSS ICON*/
+.Youtube {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-right: 10px;
+}
